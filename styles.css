@@ -31,6 +31,16 @@ body { margin: 0; }
     display: table;
 }
 
+.banner{
+    background-color: rgb(43, 160, 228); 
+    color: white;
+    font-family: 'Raleway', sans-serif;;
+}
+
+.borrar-tweet{
+    color: red;
+}
+
 /*ELEMENTOS FLEX*/
 .flex-all-center {
     justify-content: center;
