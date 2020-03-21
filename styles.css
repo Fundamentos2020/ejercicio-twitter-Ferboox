@@ -37,9 +37,15 @@ body { margin: 0; }
     font-family: 'Raleway', sans-serif;;
 }
 
-.borrar-tweet{
+.borrar-tweet,
+.borrar-tweet:hover {
+    float: right;
+    cursor: pointer;
     color: red;
+    font-weight: bold;
 }
+
+
 
 .text-area{
     width:100%;
@@ -93,6 +99,10 @@ body { margin: 0; }
 .img-fluid {
     max-width: 100%;
     height: auto;
+}
+
+.bDisplay{
+    float: right;
 }
 
 .d-inline {display: inline;}
